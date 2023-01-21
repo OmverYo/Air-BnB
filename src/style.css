@@ -16,3 +16,15 @@ nav {
 .nav--logo {
     max-width: 100px;
 }
+
+main {
+    padding: 20px 36px;
+}
+
+.hero--title {
+    margin-bottom: -0.3em;
+}
+
+.hero--background {
+    width: 400px;
+}

@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    font-family: 'Poppins', sans-serif;
 }
 
 nav {
@@ -17,8 +18,13 @@ nav {
     max-width: 100px;
 }
 
-main {
-    padding: 20px 36px;
+section {
+    padding: 20px;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
 }
 
 .hero--title {
@@ -26,5 +32,21 @@ main {
 }
 
 .hero--background {
-    width: 400px;
+    max-width: 400px;
+    align-self: center;
+}
+
+.hero--text {
+    margin-top: 0;
+}
+
+.card {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card--instance {
+    max-width: 200px;
+    margin-bottom: -1.1rem;
 }

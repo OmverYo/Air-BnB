@@ -46,7 +46,27 @@ section {
     flex-direction: column;
 }
 
+.card--image {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.card--status {}
+
 .card--instance {
     max-width: 200px;
-    margin-bottom: -1.1rem;
+    margin-bottom: -0.5rem;
+    border-radius: 10px;
+}
+
+.top-left {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+.card--text {
+    font-size: 12px;
 }

@@ -4,14 +4,18 @@ import GraduationPicture from "./../Images/graduation-picture.jpg"
 export default function Card() {
     return (
         <div className="card">
-            <img src={GraduationPicture}
-                className="card--instance" alt="instance"></img>
-            <h6>5.0 (6) NZ
+            <div className="card--image">
+                <img src={GraduationPicture}
+                    className="card--instance" alt="instance"></img>
+                    <p className="card--status">Sold</p>
+            </div>
+            <p className="card--text">
+                5.0 (6) NZ
                 <br></br>
                 Graduation with Justin Lee
                 <br></br>
-                From $50 / person
-            </h6>
+                <b>From $50 </b>/ person
+            </p>
         </div>
     )
 }

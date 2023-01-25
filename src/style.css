@@ -41,32 +41,28 @@ section {
 }
 
 .card {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
+    width: 175px;
+    font-size: 12px;
 }
 
-.card--image {
-    position: relative;
-    text-align: center;
-    color: white;
+.card--star {
+    width: 15px;
 }
-
-.card--status {}
 
 .card--instance {
-    max-width: 200px;
-    margin-bottom: -0.5rem;
+    max-width: 100%;
     border-radius: 10px;
 }
 
-.top-left {
-    color: white;
-    position: absolute;
-    top: 8px;
-    left: 16px;
+.card--status {
+    display: flex;
+    align-items: center;
 }
 
-.card--text {
-    font-size: 12px;
+.gray {
+    color: #918E9B;
+}
+
+.bold {
+    font-weight: bold;
 }

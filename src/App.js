@@ -8,7 +8,15 @@ export default function App() {
         <div>
             <Navbar />
             <Hero />
-            <Card />
+            <Card
+                image="graduation-picture.jpg"
+                rating="5.0"
+                reviews={6}
+                country="NZ"
+                title="Graduation with Justin Lee"
+                price={50}
+            />
         </div>
     )
 }
+

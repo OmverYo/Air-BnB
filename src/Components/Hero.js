@@ -1,5 +1,5 @@
 import React from "react"
-import AirbnbPictures from "./../Images/airbnb-pictures.jpeg"
+import AirbnbPictures from "./../images/airbnb-pictures.jpeg"
 
 export default function Hero() {
     return (

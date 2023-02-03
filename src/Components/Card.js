@@ -1,6 +1,5 @@
 import React from "react"
 import Star from "./../images/red-star.png"
-/* import GraduationPicture from "./../images/graduation-picture.jpg" */
 
 export default function Card(props) {
     let badgeText = null
@@ -13,8 +12,6 @@ export default function Card(props) {
     return (
         <div className="card">
             {badgeText != null && <div className="card--badge">{badgeText}</div>}
-            {/* <img src={GraduationPicture}
-                className="card--instance" alt="instance"></img> */}
             <img src={`${process.env.PUBLIC_URL}/images/${props.item.coverImg}`}
                 className="card--instance" alt="instance"></img>
             <div className="card--status">
